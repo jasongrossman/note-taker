@@ -6,7 +6,8 @@ Users can save a note to the database by clicking on the save button (once both 
 
 Users have the ability to select on individual notes to review, or delete existing notes from the database as well.
 
-! [Demo] ("./assets/screenshot.JPG")
+![screenshot](https://user-images.githubusercontent.com/85508030/140332285-cb7d9f6c-9faa-436a-a474-0d00e233da23.JPG)
+
 
 GitHub Deployed URL: https://jasongrossman.github.io/note-taker/
 
