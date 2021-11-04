@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jasongrossman/note-taker/issues"
   },
-  "homepage": "https://jasongrossman.github.io/note-taker/"
+  "homepage": "https://jasongrossman.github.io/note-taker/",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
