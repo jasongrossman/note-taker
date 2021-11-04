@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const mainDir = path.join(__dirname, "/public");
+const mainDir = path.join(__dirname, "/");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static('/'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
